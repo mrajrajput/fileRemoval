@@ -2,7 +2,7 @@
 This is for removal of files before pushing it to GIT repository(on cloud). 
 
 # CVS to GIT
-We usually have CVS hosted in-house and are nowadays moving to GIT either on cloud or GIT in-premise.  When we move from on-premise to cloud, we would want to remove secrets(database username, password, IP addresses, etc) from code before moving to the cloud.
+We usually have CVS hosted in-house and are nowadays moving to GIT either on cloud or GIT in-premise.  When we move from on-premise to cloud, we would want to remove secret file(usually containing database username, password, IP addresses, etc) from code before moving to the cloud.
 
 I've created this script where you will have to specify CVS and GIT parameters.
 
